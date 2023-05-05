@@ -16,21 +16,21 @@ Host HAproxy
 
 Host devA
   User ubuntu
-  HostName 11.0.2.1
+  HostName 10.1.0.177
   ProxyJump BastionNSO
   StrictHostKeyChecking no
   PasswordAuthentication no
 
 Host devB
   User ubuntu
-  HostName 11.0.2.15
+  HostName 10.1.0.20
   ProxyJump BastionNSO
   StrictHostKeyChecking no
   PasswordAuthentication no
 
 Host devC
   User ubuntu
-  HostName 11.0.2.20
+  HostName 10.1.0.70
   ProxyJump BastionNSO
   StrictHostKeyChecking no
   PasswordAuthentication no
