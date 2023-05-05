@@ -28,4 +28,10 @@ Host devB
   StrictHostKeyChecking no
   PasswordAuthentication no
 
+Host devC
+  User ubuntu
+  HostName 11.0.2.20
+  ProxyJump BastionNSO
+  StrictHostKeyChecking no
+  PasswordAuthentication no
 
