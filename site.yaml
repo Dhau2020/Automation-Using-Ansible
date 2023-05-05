@@ -4,7 +4,7 @@
 
 
 
-- hosts: webserver
+- hosts: webservers
   become: yes
   tasks:
     - name: Update apt cache
