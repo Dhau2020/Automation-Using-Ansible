@@ -1,4 +1,4 @@
-Host BastionNSO
+Host bastionNSO
   User ubuntu
   HostName 89.42.141.88
   IdentityFile ~/.ssh/id_rsa
