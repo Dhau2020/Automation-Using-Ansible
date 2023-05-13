@@ -60,8 +60,8 @@
 
     - name: Copy Flask app file
       copy:
-        src: application2.py
-        dest: /home/ubuntu/flask-app/venv/application2.py
+        src: app.py
+        dest: /home/ubuntu/flask-app/venv/app.py
 
 
 - name: Configure HAProxy Load Balancer
