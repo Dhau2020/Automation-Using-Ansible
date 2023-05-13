@@ -79,3 +79,8 @@
         src: haproxy.cfg.j2
         dest: /etc/haproxy/haproxy.cfg
       become: yes
+    - name: Restart HAProxy
+      service:
+      name: haproxy
+      state: restarted
+
