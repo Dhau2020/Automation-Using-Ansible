@@ -81,6 +81,6 @@
       become: yes
     - name: Restart HAProxy
       service:
-      name: haproxy
-      state: restarted
+       name: haproxy
+       state: restarted
 
