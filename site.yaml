@@ -63,7 +63,7 @@
         src: app.py
         dest: /home/ubuntu/flask-app/venv/app.py
     - name: start flask app
-      shell: python3 application2.py
+      shell: python3 app.py
 
 
 - name: Configure HAProxy Load Balancer
